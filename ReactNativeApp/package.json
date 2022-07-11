@@ -2,14 +2,15 @@
   "name": "pronef",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "homepage": ".",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "build": "react-script build",
-    "test": "react-script test"
+    "build": "expo build",
+    "test": "expo test"
   },
   "dependencies": {
     "@react-navigation/native": "^6.0.8",
