@@ -9,8 +9,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "build": " build",
-    "test": " test"
+    "build": "babel src -d lib",
+    "test": "jest"
   },
   "dependencies": {
     "@react-navigation/native": "^6.0.8",
