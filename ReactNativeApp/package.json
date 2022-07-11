@@ -9,8 +9,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "build": "expo build",
-    "test": "expo test"
+    "build": " build",
+    "test": " test"
   },
   "dependencies": {
     "@react-navigation/native": "^6.0.8",
