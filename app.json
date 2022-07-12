@@ -28,8 +28,6 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "description": "",
-    "githubUrl": "https://github.com/oleksii-burdeniuk/ReactNativeApp.git"
+    }
   }
 }

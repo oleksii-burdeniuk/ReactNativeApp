@@ -2,16 +2,24 @@ import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity, Image, } from 'react-native';
 
+
+
+
+
+
 export default function App() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   
   const submit = () =>{
     alert("email:" + email + '  password:' + password)
+   
   }
   const forgotPassword = () =>{
-    alert('forgot password! haha')
+    const location = navigator.geolocation;
+    console.log(location)
   }
+
   
   return (
     
