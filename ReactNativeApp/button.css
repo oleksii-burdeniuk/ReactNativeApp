@@ -1,0 +1,286 @@
+/* modalka for iphone */
+
+.instructionContainer {
+    background-color: #eeecec;
+    display: none;
+    position: fixed;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 95%;
+    border-radius: 8px;
+    z-index: 500;
+    flex-direction: column;
+}
+
+.headerInstructionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.InstructionHeaderButtonContainer {
+    display: flex;
+    min-width: 100%;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.closeInstructionButton {
+    margin-right: 6px;
+    font-weight: 300;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    color: #999999;
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+.instructionLogoContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.instructionEmptyLogo {
+    min-width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    border: none;
+    background-color: #d8d1d1;
+    border-radius: 15px;
+}
+
+.instructionLogo {
+    display: flex;
+    min-width: 80px;
+    max-width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.instructionLogoImg {
+    width: 70%;
+    height: 70%;
+}
+
+.instructionContainerTitle {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.instructionContainerTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px 10px 10px 10px;
+}
+
+.instructionContainerText {
+    text-align: center;
+}
+
+.instructionFooterContainer {
+    display: flex;
+    margin-top: 10px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7e6e6;
+}
+
+.instructionFooterImgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instructionFooterImg {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.backgroundContainer {
+    min-width: 100%;
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 499;
+}
+
+
+/* modalka for iphone */
+
+
+/* install Pwa Button  */
+
+.installPwaButtonContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100%;
+}
+
+.buttonInstallPwa {
+    display: none;
+    margin: 9px 8px 6px 8px;
+    height: 32px;
+    align-items: center;
+    background-color: rgb(20 85 122);
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    justify-content: space-between;
+    padding: 0px;
+    z-index: 2;
+}
+
+.installPwaButtonText {
+    margin-left: 8px;
+    margin-top: 1px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.installPwaButtonImgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+    margin-left: 6px;
+    border-radius: 7px;
+    padding: 0;
+    border: 0.5px solid black;
+    overflow: hidden;
+}
+
+.installPwaButtonImg {
+    width: 33px;
+    height: 33px;
+}
+
+.installAppButtonOnBunnerContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.installAppButtonOnBunner {
+    display: flex;
+    margin: 15px 25px 6px 8px;
+    height: 32px;
+    border: 1px solid #ffffff;
+    align-items: center;
+    background-color: rgb(20 85 122);
+    border-radius: 6px;
+    justify-content: space-between;
+    padding: 0px;
+    z-index: 2;
+}
+
+.InstallAppBunnerContainer {
+    display: none;
+    justify-content: space-between;
+    width: 100%;
+    height: 140px;
+    background-color: #00659e;
+}
+
+.InstallAppBunnerLogoContainer {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.InstallAppBunnerLogoImg {
+    width: 75px;
+    height: 75px;
+    border-radius: 8px;
+}
+
+.InstallAppBunnerContentContainer {
+    width: 80%;
+    height: 100%;
+}
+
+.InstallAppBunnerTextContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.InstallAppBunnerText {
+    margin-top: 25px;
+    color: #ffffff;
+}
+
+.InstallAppBunnerTextTitle {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.filterEventInstallPwaBunnerContainer {
+    margin-left: -11px;
+    margin-right: -11px;
+    padding-top: 31px;
+}
+
+.installBtnFilterHeader {
+    display: none;
+    height: 37px;
+    border: 1px solid #00659e;
+    align-items: center;
+    background-color: #00659e;
+    ;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    z-index: 2;
+}
+
+.installBtnFilterHeaderText {
+    margin-left: 10px;
+    margin-top: 1px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.installBtnFilterHeaderImgCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    margin-left: 6px;
+    border-radius: 7px;
+    padding: 0;
+    border: 0.5px solid black;
+    overflow: hidden;
+}
